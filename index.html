@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Resumen html</title>
+</head>
+
+<body style="background-color: lavender;" >
+  <h1>
+    <center>Resumen html</center>
+  </h1>
+  <hr size="5" noshade>
+  <h3> El tag &lthtml&gt &lt/html&gt</h3>
+  <p>Es el tag inicial y final , que contine los tags "head" y "body".</p>
+  <hr>
+  <h3>El tag &lthead&gt &lt/head&gt</h3>
+  <p>Contine informacion que no se ve en la pagina.</p>
+  <hr>
+  <h3>El tag &ltbody&gt &lt/body&gt</h3>
+  <p>Es donde se coloca lo que se muestra en la pagina.</p>
+  <hr>
+  <h3>El tag &lth1&gt &lt/h1&gt </h3>
+  <p>Escribe algo en letra grande, disminuye a medida q el numero aumenta ejs h2 h3 h4.</p>
+  <hr>
+  <h3>&ltbr&gt </h3>
+  <p>No necesita cerrarse.</p>
+  <p>Es para dejar espacio y continuar abajo.</p>
+  <hr>
+  <h3>&lthr&gt</h3>
+  <p>Escribe una linea horizontal.</p>
+  <p>Con el atributo "size" se modifica el ancho de la linea , y con el atributo "noshade" se quita el contorno.<br>ejm &lthr size="3" noshade&gt.</p>
+  <hr>
+  <h3>&ltcenter&gt &lt/center&gt</h3>
+  <p>centra todo lo que esta en el medio</p>
+  <hr>
+  <h3>&ltp&gt &lt/p&gt</h3>
+  <p>Es para escribir un parrafo</p>
+  <hr>
+  <h3>&ltem&lt &lt/em&gt</h3>
+  <p>Es para dar enfasis en algo que escribis, <em>tranforma la letra en italic</em> tambien se puede usar "i" "/i" pero no es recomendado</p>
+  <hr>
+  <h3>&ltstrong&gt &lt/strong&gt</h3>
+  <p>Es para marcar las palabras como algo importante, <strong>tranforma la letra en negra</strong> tambien se puede usar "b" "/b" que viene de bold , pero no es recomendado</p>
+  <hr>
+  <h2>&ltul&gt &lt/ul&gt y &ltol&gt &lt/ol&gt</h2>
+  <p>"ul" significa unordered list ,es para listas que llevan un punto al comienzo de cada item.</p>
+  <p>"ol" significa ordered list ,es para listas que llevan un numero al comienzo de cada item.</p>
+  <h2>&ltli&gt &lt/li&gt</h2>
+  <p>Significa lista, y es lo q vas a poner en cada item de una lista.</p>
+  <hr>
+  <h2>&ltimg src="asdasd.png" alt="ejemplo"&gt</h2>
+  <p>img ,es para agregar imagenes</p>
+  <p>src= ,es "source" la fuente de donde se saca esa imagen</p>
+  <p>alt= , es informacion alternativa o adicional, normalmente descripcion de la imagen.</p>
+  <p>asdasd.png ,es la imagen donde esta ubicada, se puede poner la imagen en la misma carpeta del proyecto
+    para no tener q agregar informacion adicional para buscar la ubicacion,
+    para esto tiene q esta en el mismo nivel q el index , sino hay q poner la ubicacion completa de donde esta.</p>
+  <hr>
+  <h2>&lta href="httm//asdasd.com"&gt &lt/a&gt</h2>
+  <p>Es para poner links a otras paginas, u otras partes de la pagina tambien.</p>
+  <hr>
+  <h2>Tablas</h2>
+  <table cellspacing="10" border="1" >
+    <thead>
+    <tr>
+      <th>
+        <p>&lttable&gt</p>
+        <p>&lttr&gt</p>
+        <p>&lttd&gt &lttd&gt</p>
+        <p>&lttd&gt &lttd&gt</p>
+        <p>&lttr&gt</p>
+        <p>&lt/table&gt</p>
+      </th>
+      <td>
+        <p>table es para hacer tablas</p>
+        <p>tr , es table row , es para poner items horizonatalmente</p>
+        <p>td , es table data ,es cada item q pones en una tabla </p>
+        <p>-</p>
+        <p>-</p>
+        <p>-</p>
+      </td>
+    </tr>
+    </thead>
+  </table>
+  <p>tambien se puede agregar "thead" "tbody" y "tfoot" q son para organizar mejor, ademas si pones  "th" en vez de "td" , dentro de "tr" marca en negro las letras , </p>
+<hr>
+<h2>
+&ltform class="" action="index.html" method="post"&gt <br>
+&ltlabel for=""&gt &lt/label&gt <br>
+&ltinput type="text" name="" value=""&gt <br>
+&lt/form&gt
+</h2>
+<p>form , es para agregar algunas funcionalidades para interactuar</p>
+<p>label , es para escribir un texto antes de la funcion</p>
+<p>input es la funcion, cambiando el "type" cambias lo que hace, a veces hay q quitar el "value" para q funcione</p>
+<p>ejemplo:</p>
+
+<form class="" action="index.html" method="post">
+  <label for="">Nombre:</label>
+  <input type="text" name="" value="">
+  <input type="submit" name="">
+</form>
+
+
+</body>
+
+</html>
