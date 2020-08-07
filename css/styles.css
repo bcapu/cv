@@ -2,10 +2,18 @@ body {
   margin: 0;
   background-color: #EAF6F6;
  text-align: center;
-  font-family: sans-serif;
+  font-family: sans-serif ;
+
 
 }
 
+hr{
+    margin:100px auto 0 auto;
+  border-top: 10px dotted lightgrey;
+
+  width: 20%
+
+}
 h1 {
   margin: 50px auto 0 auto;
  color:#66BFBF;
@@ -13,6 +21,8 @@ h1 {
 
 h2{
   color:#66BFBF;
+  margin:50px 0 50px 0;
+
 }
 h3{
   color: #11999E;
@@ -22,6 +32,7 @@ a{
 }
 p {
   margin: 0;
+  margin:0 0 50px 0;
 }
 .titulo{font-family: 'Sacramento', cursive;
     font-size: 600%;
@@ -80,4 +91,15 @@ p {
 
 .img-ojos{
     margin-top: 100px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding-bottom: 40px;
+  margin-top:100px;
+}
+
+
+.skills{
+  padding-top:100px;
+}
 }
