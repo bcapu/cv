@@ -52,3 +52,9 @@ p{
   box-shadow: 0 6px 8px rgba(85, 102, 119, 0.03), 0 1px 1px rgba(85, 102, 119, 0.4);
   padding:10px;
 }
+.letcod{
+  font-family: cousine, "SFMono-Regular", Consolas, Menlo, "Liberation Mono", "Ubuntu Mono", Courier, monospace;
+  font-size: 1em
+  
+
+}
