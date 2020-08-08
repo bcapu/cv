@@ -1,15 +1,15 @@
-h1{
-  color:;
+h2 {
+  color: #B31313;
 }
-h2{
-  color:#B31313;
-}
-body{background-color:#6ebfb5;
 
+body {
+  background-color: #f1f3f5;
+  max-width: 800px;
+  margin:0 auto;
 }
-hr{
+
+hr {
   border-style: none;
   background-color: white;
   height: 2px;
-
 }
