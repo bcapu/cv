@@ -54,7 +54,8 @@ p{
 }
 .letcod{
   font-family: cousine, "SFMono-Regular", Consolas, Menlo, "Liberation Mono", "Ubuntu Mono", Courier, monospace;
-  font-size: 1em
-  
+  font-size: 16px;
+  color: darkcyan;
+
 
 }
