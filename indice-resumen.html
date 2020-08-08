@@ -5,7 +5,10 @@
   <meta charset="utf-8">
   <title>Resumen html</title>
   <link rel="stylesheet" href="css0/estilo.css">
+  <link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <style media="screen">
+
     #puntos {
       border-style: none;
       border-top-style: dotted;
@@ -37,47 +40,51 @@
 
 <body>
   <h1>
-    <center>Resumen html</center>
+    <center>Resumen <em>html</em></center>
   </h1>
   <hr size="5" noshade>
-  <h2> El tag &lthtml&gt &lt/html&gt</h2>
-  <p>Es el tag inicial y final , que contine los tags "head" y "body".</p>
-  <hr>
-  <h2>El tag &lthead&gt &lt/head&gt</h2>
-  <p>Contine informacion que no se ve en la pagina.</p>
-  <hr>
-  <h2>El tag &ltbody&gt &lt/body&gt</h2>
-  <p>Es donde se coloca lo que se muestra en la pagina.</p>
-  <hr>
-  <h2>El tag &lth1&gt &lt/h1&gt </h2>
-  <p>Escribe algo en letra grande, disminuye a medida q el numero aumenta ejs h2 h3 h4.</p>
-  <hr>
-  <h2>&ltbr&gt </h2>
-  <p>No necesita cerrarse.</p>
-  <p>Es para dejar espacio y continuar abajo.</p>
-  <hr>
-  <h2>&lthr&gt</h2>
+  <h2> Tags basicos</h2>
+  <h3>El tag " html "</h3>
+  <p>Es el tag inicial y final , que contine los tags "head" y "body". Ejemplo: &lthtml&gt &lt/html&gt</p>
+
+  <h3>El tag " head "</h3>
+  <p>Contine informacion que no se ve en la pagina. Ejemplo: &lthead&gt &lt/head&gt</p>
+
+  <h3>El tag " body "</h3>
+  <p>Es donde se coloca lo que se muestra en la pagina. Ejemplo: &ltbody&gt &lt/body&gt</p>
+
+  <h3>El tag " h1 "  </h3>
+  <p>Escribe algo en letra grande, disminuye a medida q el numero aumenta ejs h2 h3 h4. Ejemplo: &lth1 &lt/h1&gt</p>
+
+  <h3>El tag " br "</h3>
+
+  <p>Es para dejar espacio y continuar abajo.No necesita cerrarse.</p>
+
+  <h3>el tag " hr "</h3>
   <p>Escribe una linea horizontal.</p>
   <p>Con el atributo "size" se modifica el ancho de la linea , y con el atributo "noshade" se quita el contorno.<br>ejm &lthr size="3" noshade&gt.</p>
-  <hr>
+
   <h2>&ltcenter&gt &lt/center&gt</h2>
   <p>centra todo lo que esta en el medio</p>
-  <hr>
+
   <h2>&ltp&gt &lt/p&gt</h2>
   <p>Es para escribir un parrafo</p>
-  <hr>
+
   <h2>&ltem&lt &lt/em&gt</h2>
   <p>Es para dar enfasis en algo que escribis, <em>tranforma la letra en italic</em> tambien se puede usar "i" "/i" pero no es recomendado</p>
-  <hr>
+
   <h2>&ltstrong&gt &lt/strong&gt</h2>
   <p>Es para marcar las palabras como algo importante, <strong>tranforma la letra en negra</strong> tambien se puede usar "b" "/b" que viene de bold , pero no es recomendado</p>
-  <hr>
+
+  <h2> el tag &ltdiv&gt &lt/div&gt</h2>
+  <p>se usa para agrupar cosas</p>
+
   <h2>&ltul&gt &lt/ul&gt y &ltol&gt &lt/ol&gt</h2>
   <p>"ul" significa unordered list ,es para listas que llevan un punto al comienzo de cada item.</p>
   <p>"ol" significa ordered list ,es para listas que llevan un numero al comienzo de cada item.</p>
   <h2>&ltli&gt &lt/li&gt</h2>
   <p>Significa lista, y es lo q vas a poner en cada item de una lista.</p>
-  <hr>
+
   <h2>&ltimg src="asdasd.png" alt="ejemplo"&gt</h2>
   <p>img ,es para agregar imagenes</p>
   <p>src= ,es "source" la fuente de donde se saca esa imagen</p>
@@ -85,7 +92,7 @@
   <p>asdasd.png ,es la imagen donde esta ubicada, se puede poner la imagen en la misma carpeta del proyecto
     para no tener q agregar informacion adicional para buscar la ubicacion,
     para esto tiene q esta en el mismo nivel q el index , sino hay q poner la ubicacion completa de donde esta.</p>
-  <hr>
+
   <h2>&lta href="httm//asdasd.com"&gt &lt/a&gt</h2>
   <p>Es para poner links a otras paginas, u otras partes de la pagina tambien.</p>
   <hr>
@@ -114,12 +121,13 @@
   </table>
   <p>tambien se puede agregar "thead" "tbody" y "tfoot" q son para organizar mejor, ademas si pones "th" en vez de "td" , dentro de "tr" marca en negro las letras , </p>
   <hr>
-  <h2>
+  <h2>El tag "Form"</h2>
+  <h3>
     &ltform class="" action="index.html" method="post"&gt <br>
     &ltlabel for=""&gt &lt/label&gt <br>
     &ltinput type="text" name="" value=""&gt <br>
     &lt/form&gt
-  </h2>
+  </h3>
   <p>form , es para agregar algunas funcionalidades para interactuar</p>
   <p>label , es para escribir un texto antes de la funcion</p>
   <p>input es la funcion, cambiando el "type" cambias lo que hace, a veces hay q quitar el "value" para q funcione</p>
@@ -133,9 +141,6 @@
   <hr size="5" noshade>
   <h2>id y class</h2>
   <p>id es pera usar solo 1 ves el nombre por tag <br>class no tiene restricciones y se puede agregar varias classes en cada tag </p>
-  <hr>
-  <h2> el tag &ltdiv&gt &lt/div&gt</h2>
-  <p>se usa para agrupar cosas</p>
   <hr>
   <h1>
     <center>Resumen css</center>
