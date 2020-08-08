@@ -47,7 +47,8 @@ p{
 
 
 }
-.divblanco{
+.x{
   background-color: white;
   box-shadow: 0 6px 8px rgba(85, 102, 119, 0.03), 0 1px 1px rgba(85, 102, 119, 0.4);
+  padding:10px;
 }
