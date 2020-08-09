@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.huno {
+  background-color: #ab3647;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-family: Helvetica, arial, sans-serif;
+  color: white;
+  font-size: 26px;
+  padding-left: 16%;
+  letter-spacing: 1px;
+}
+
+.sp {
+  font-weight: 600;
+}
+
+.huno:hover {
+  color: #EEEEEE;
+}
+
+.you {
+  text-decoration: none;
+}
