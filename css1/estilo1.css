@@ -24,7 +24,7 @@ p {
   font-size: 26px;
   letter-spacing: 1px;
 
-
+text-decoration: none;
 }
 
 .sp {
@@ -35,20 +35,17 @@ p {
   color: #EEEEEE;
 }
 
-.you {
-  text-decoration: none;
 
-}
 .suscribe
 {
 
 
   background-color:red;
   font-size:16px;
-left:75%;
+
 color: white;
-position:absolute;
-top: 0;
+
+
 
 }
 
@@ -58,18 +55,18 @@ top: 0;
 
   background-color: green;
 color: white;
-left:65%;
-position:absolute;
-top: 23px;
+
+
+
 
 }
 .home{
 
   background-color: grey;
 color: white;
-left:60%;
-position:absolute;
-top: 23px;
+
+
+
 }
 
 
@@ -98,16 +95,16 @@ a{margin:0;}
 .bottom-container{
   background-color: #333;
   height: 80px;
-  position:absolute;
+
   bottom: 0;
   width: 100%;
  font-family: Arial, Helvetica, sans-serif;
- color: #aaa;
+ color: #2c3e50;
 }
 
 
 .copi{
-  position: absolute;
+
 margin-top:30px;
 
 
@@ -117,8 +114,12 @@ margin-top:30px;
   margin:auto;
 }
 .cosas{
-  position: absolute;
+
 right:1px;
 
+
+}
+.aside{
+  background-color: #2c3e50;
 
 }
