@@ -6,25 +6,91 @@ p {
   margin: 0;
 }
 
-.huno {
+.top-container
+ {
   background-color: #ab3647;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  height: 60px;
+  width:100%;
+}
+
+
+
+
+.you {
+
   font-family: Helvetica, arial, sans-serif;
   color: white;
   font-size: 26px;
-  padding-left: 16%;
   letter-spacing: 1px;
+
+
 }
 
 .sp {
   font-weight: 600;
 }
 
-.huno:hover {
+.you:hover {
   color: #EEEEEE;
 }
 
 .you {
   text-decoration: none;
+
 }
+.suscribe
+{
+
+
+  background-color:red;
+  font-size:16px;
+
+color: white;
+left:500px;
+position:relative;
+top: 0;
+
+}
+
+
+
+.popular{
+
+  background-color: green;
+color: white;
+left:65%;
+position:absolute;
+top: 23px;
+
+}
+.home{
+
+  background-color: grey;
+color: white;
+left:60%;
+position:absolute;
+top: 23px;
+}
+
+
+
+ul{
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 0;
+max-width: 1025px;
+padding-top: 16px;
+
+padding-right:0;
+padding-left: 0;
+}
+
+
+
+
+li
+{margin:0;
+display: inline-block;
+}
+a{margin:0;}
