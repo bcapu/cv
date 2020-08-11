@@ -16,13 +16,19 @@ ul {
   padding-right: 0;
   padding-left: 0;
 }
-
-a:visited {
-  color: violet;
+a{
+  color:#9d0f0f;
 
 }
-a{
+a:visited{
   color: blue;
+}
+
+a:hover {
+  color: red;
+
+
+
 }
 /*a {
   margin: 0;
@@ -30,8 +36,8 @@ a{
 
 .top-container {
   background-color: #ab3647;
-  height: 60px;
-  width: 100%;
+  
+
 }
 
 .you {
