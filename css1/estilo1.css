@@ -1,30 +1,45 @@
 body {
   margin: 0;
-
 }
 
-p {
+/*p {
   margin: 0;
+}*/
+
+ul {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  max-width: 1025px;
+  padding-top: 16px;
+  padding-right: 0;
+  padding-left: 0;
 }
 
-.top-container
- {
+a:visited {
+  color: violet;
+
+}
+a{
+  color: blue;
+}
+/*a {
+  margin: 0;
+}*/
+
+.top-container {
   background-color: #ab3647;
   height: 60px;
-  width:100%;
+  width: 100%;
 }
 
-
-
-
 .you {
-
   font-family: Helvetica, arial, sans-serif;
   color: white;
   font-size: 26px;
   letter-spacing: 1px;
-
-text-decoration: none;
+  text-decoration: none;
 }
 
 .sp {
@@ -35,96 +50,45 @@ text-decoration: none;
   color: #EEEEEE;
 }
 
-
-.suscribe
-{
-
-
-  background-color:red;
-  font-size:16px;
-
-color: white;
-
-
-
+.suscribe {
+  background-color: red;
+  font-size: 16px;
+  color: white;
 }
 
-
-
-.popular{
-
+.popular {
   background-color: green;
-color: white;
-
-
-
-
+  color: white;
 }
-.home{
 
+.home {
   background-color: grey;
-color: white;
-
-
-
+  color: white;
 }
 
-
-
-ul{
-  width: 100%;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 0;
-max-width: 1025px;
-padding-top: 16px;
-
-padding-right:0;
-padding-left: 0;
-}
-
-
-
-
-li
-{margin:0;
-display: inline-block;
-}
-a{margin:0;}
-
-.bottom-container{
+.bottom-container {
   background-color: #333;
   height: 80px;
-
   bottom: 0;
   width: 100%;
- font-family: Arial, Helvetica, sans-serif;
- color: #2c3e50;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2c3e50;
 }
 
-
-.copi{
-
-margin-top:30px;
-
-
+.copi {
+  margin-top: 30px;
 }
-.pared{
+
+.pared {
   max-width: 1000px;
-  margin:auto;
+  margin: auto;
 }
-.cosas{
 
-right:1px;
-
-
+.cosas {
+  right: 1px;
 }
-.aside{
 
+.aside {
   border-color: grey;
   border-style: solid;
-  
-
-
-
 }
