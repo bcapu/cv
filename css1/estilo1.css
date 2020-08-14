@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+margin:0;
 }
 a{color: darkred;}
 
@@ -19,11 +19,13 @@ header {
 }
 
 nav {
-  display: inline-block;
+  display: inline-block;}
+.top-container  { display: block;
+  max-width: 1025px;
+  margin: auto;}
 
 
 
-}
 
 .ul1 {
   display: inline-block;
@@ -35,12 +37,6 @@ nav {
 
 }
 
-.top-container {
-
-  display: block;
-  max-width: 1025px;
-  margin: auto;
-}
 
 .you {
   font-family: Helvetica, arial, sans-serif;
@@ -104,12 +100,12 @@ margin-right: 7em;
 
 }
 
-.pared {
+
+
+.pared{
+  display: block;
   max-width: 1025px;
   margin: auto;
-  margin-bottom: 0;
-
-
 }
 .ulfoot{
   display: inline-block;
@@ -127,22 +123,29 @@ padding-bottom: 10px;
 }
 
 
-main{
-  max-width: 1025px;
-  margin:auto;
+
+
+
+main{display: block;
+max-width: 1025px;
+margin: auto;
 }
+
+
 .middle-container{
   display: inline-block;
-
-
+  width: 69%;
+  min-width: 400px;
 }
+
 
 
 .aside {
   border-color: grey;
   border-style: solid;
   display: inline-block;
-
+width:30%;
+min-width:200px;
 
 
 }
