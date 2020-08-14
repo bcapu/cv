@@ -2,42 +2,45 @@ body {
   margin: 0;
 }
 
-/*p {
-  margin: 0;
-}*/
-
-ul {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  max-width: 1025px;
-  padding-top: 16px;
-  padding-right: 0;
-  padding-left: 0;
+a {
+  color: #9d0f0f;
 }
-a{
-  color:#9d0f0f;
 
-}
-a:visited{
-  color: blue;
+a:visited {
+  color: green;
 }
 
 a:hover {
   color: red;
+}
 
+header {
+  background-color: #ab3647;
+  height: 60px;
+}
 
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.lis1 {
+  display: inline-block;
+}
+
+.ul1 {
+  display: block;
 
 }
-/*a {
-  margin: 0;
-}*/
 
 .top-container {
-  background-color: #ab3647;
-  
-
+  position: relative;
+  display: block;
+  max-width: 1025px;
+  margin: auto;
 }
 
 .you {
@@ -46,10 +49,13 @@ a:hover {
   font-size: 26px;
   letter-spacing: 1px;
   text-decoration: none;
+  display: inline-block;
+  margin-top: 14px
 }
 
 .sp {
   font-weight: 600;
+  display: inline-block
 }
 
 .you:hover {
@@ -58,18 +64,20 @@ a:hover {
 
 .suscribe {
   background-color: red;
-  font-size: 16px;
   color: white;
+  display: inline-block;
 }
 
 .popular {
   background-color: green;
   color: white;
+  display: inline-block;
 }
 
 .home {
   background-color: grey;
   color: white;
+  display: inline-block;
 }
 
 .bottom-container {
