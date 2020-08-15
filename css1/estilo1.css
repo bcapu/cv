@@ -1,7 +1,9 @@
 body {
 margin:0;
 }
-a{color: darkred;}
+a{color: darkred;
+  width:60%;
+}
 
 
 
@@ -19,7 +21,9 @@ header {
 }
 
 nav {
-  display: inline-block;}
+  display: inline-block;
+  width: 30%;
+}
 
 .top-container  { display: block;
   max-width: 1025px;
@@ -138,6 +142,9 @@ margin: auto;
   width: 70%;
   min-width: 400px;
   background-color: lightblue;
+  height: 400px;
+  padding-top:50px;
+
 
 
 }
@@ -151,6 +158,5 @@ width:30%;
 min-width:100px;
 height: 250px;
 background-color: lightgrey;
-
-
+vertical-align: middle;
 }
