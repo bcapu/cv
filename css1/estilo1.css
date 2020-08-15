@@ -2,7 +2,8 @@ body {
 margin:0;
 }
 a{color: darkred;
-  width:60%;
+  
+
 }
 
 
@@ -23,11 +24,15 @@ header {
 nav {
   display: inline-block;
   width: 30%;
+  vertical-align: top;
 }
 
 .top-container  { display: block;
   max-width: 1025px;
-  margin: auto;}
+  margin: auto;
+
+
+}
 
 
 
@@ -143,8 +148,8 @@ margin: auto;
   min-width: 400px;
   background-color: lightblue;
   height: 400px;
-  padding-top:50px;
-
+  padding-top: 50px;
+vertical-align: middle;
 
 
 }
@@ -159,4 +164,5 @@ min-width:100px;
 height: 250px;
 background-color: lightgrey;
 vertical-align: middle;
+
 }
