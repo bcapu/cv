@@ -23,10 +23,11 @@ header {
 
 nav {
   display: inline-block;
-  width: 30%;
+  width: 28%;
   vertical-align: top;
-
   text-align: right;
+  padding-right: 2%;
+
 }
 
 .top-container  { display: block;
@@ -46,7 +47,7 @@ nav {
 
 .ul1 li {
   display: inline-block;
-text-align: right;
+
 }
 
 
@@ -57,10 +58,10 @@ text-align: right;
   letter-spacing: 1px;
   text-decoration: none;
   display: inline-block;
-  margin-top: 14px ;
-
+  margin-top:12px;
   text-align: left;
-  width:70%;
+  width:68%;
+padding-left:2%
 
 }
 
@@ -73,22 +74,12 @@ text-align: right;
   color: #EEEEEE;
 }
 
-.suscribe {
-  background-color: red;
-  color: white;
-  display: inline-block;
-}
-
-.popular {
-
-  color: white;
-  display: inline-block;
-}
-
-.home {
-  background-color: grey;
-  color: white;
-  display: inline-block;
+.sus{
+  border:outset 3px lightgrey ;
+  margin-left: 5px;
+  padding:5px;
+  border-radius: 15px;
+  text-decoration: none;
 }
 
 
