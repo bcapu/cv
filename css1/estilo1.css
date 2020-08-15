@@ -20,6 +20,7 @@ header {
 
 nav {
   display: inline-block;}
+
 .top-container  { display: block;
   max-width: 1025px;
   margin: auto;}
@@ -134,18 +135,22 @@ margin: auto;
 
 .middle-container{
   display: inline-block;
-  width: 69%;
+  width: 70%;
   min-width: 400px;
+  background-color: lightblue;
+
+
 }
 
 
 
 .aside {
-  border-color: grey;
-  border-style: solid;
+
   display: inline-block;
 width:30%;
-min-width:200px;
+min-width:100px;
+height: 250px;
+background-color: lightgrey;
 
 
 }
