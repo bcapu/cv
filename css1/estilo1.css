@@ -25,7 +25,8 @@ nav {
   display: inline-block;
   width: 30%;
   vertical-align: top;
-  background-color: lightgreen;
+
+  text-align: right;
 }
 
 .top-container  { display: block;
@@ -45,7 +46,7 @@ nav {
 
 .ul1 li {
   display: inline-block;
-
+text-align: right;
 }
 
 
@@ -57,9 +58,10 @@ nav {
   text-decoration: none;
   display: inline-block;
   margin-top: 14px ;
-background-color: lightpink;
-  text-align: center;
-  width:69%
+
+  text-align: left;
+  width:70%;
+
 }
 
 .sp {
@@ -78,7 +80,7 @@ background-color: lightpink;
 }
 
 .popular {
-  background-color: green;
+
   color: white;
   display: inline-block;
 }
@@ -148,9 +150,9 @@ margin: auto;
   display: inline-block;
   width: 70%;
   min-width: 400px;
-  background-color: lightblue;
 
-  padding-top: 50px;
+
+
 vertical-align: middle;
 
 
