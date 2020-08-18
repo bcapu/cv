@@ -1,0 +1,39 @@
+body{
+  margin:0;
+}
+main{
+  margin-left:15%;
+  height:1300px;
+  padding:2px;
+
+
+}
+.hori{
+  display: inline-block;
+
+}
+
+.navleft {
+margin:0;
+padding:0;
+  width:15%;
+  background-color: lightgrey;
+  height:100%;
+  position:fixed;
+  overflow: scroll;
+
+}
+.navleft a {
+  padding:8px 16px;
+  display:block;
+}
+.costado{
+  height :100%;
+  width:70px;
+  display: block;
+  background-color: lightblue;
+  
+}
+.middle-Container{
+ margin-right: 100px;
+}
