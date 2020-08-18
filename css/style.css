@@ -1,39 +1,87 @@
 body{
   margin:0;
+  font-family: sans-serif;
+}
+header{
+position:fixed;
+top:0;
+width:100%;
+background-color: white;
 }
 main{
   margin-left:15%;
   height:1300px;
-  padding:2px;
+padding: 1px;
 
 
 }
-.hori{
-  display: inline-block;
+  .hori{
+    display: inline-block;
+      text-align: left;
+      width:69%;
+      padding:16px 0;
 
+    }
+
+    .hori a{
+padding:0 20px;
+
+
+
+    }
+.nose{
+  display: inline-block;
+  width: 30%;
+  text-align:center;
+
+
+}
+.navtop{
+
+  background-color: grey;
+
+}
+
+.delo{
+  display: inline-block;
+width:50%;
+text-align:right;
 }
 
 .navleft {
 margin:0;
+margin-top:133px;
+margin-bottom:100px;
 padding:0;
   width:15%;
   background-color: lightgrey;
-  height:100%;
   position:fixed;
-  overflow: scroll;
+  height:80%;;
+  overflow: auto;
 
 }
 .navleft a {
   padding:8px 16px;
   display:block;
+
 }
 .costado{
-  height :100%;
-  width:70px;
-  display: block;
-  background-color: lightblue;
+
   
+  display:inline-block;
+  background-color: lightblue;
+
+
+
 }
 .middle-Container{
  margin-right: 100px;
+ display: inline-block;
+
+
+}
+.titu{
+  width: 40%;
+  display: inline-block;
+
 }
