@@ -26,9 +26,8 @@ padding: 1px;
     .hori a{
 padding:0 20px;
 
+   }
 
-
-    }
 .nose{
   display: inline-block;
   width: 30%;
@@ -38,9 +37,20 @@ padding:0 20px;
 }
 .navtop{
 
-  background-color: grey;
+  background-color: #797a7e;
 
 }
+
+
+.active{
+  background-color: lightgreen;
+}
+.hori a:hover:not(.active){
+background-color:black;}
+
+
+
+
 
 .delo{
   display: inline-block;
@@ -67,17 +77,20 @@ padding:0;
 }
 .costado{
 
-  
+
   display:inline-block;
   background-color: lightblue;
+width:10%;
+vertical-align: top;
+margin-top:132px;
 
 
 
 }
-.middle-Container{
+.middle-conteiner{
  margin-right: 100px;
  display: inline-block;
-
+background-color: pink;
 
 }
 .titu{
